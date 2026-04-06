@@ -16,7 +16,7 @@ import secrets
 app = FastAPI(title="Patient Information Server")
 
 # API Key configuration
-API_KEY = os.getenv("API_KEY", "your-secret-api-key-change-this")
+API_KEY = os.getenv("API_KEY", "sudhakar")
 API_KEY_NAME = "X-API-Key"
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
 
